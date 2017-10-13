@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>register</title>
+	</head>
+	<body>
+		<form action="action_page.php">
+		<h1>使用者註冊</h1>
+		<br>
+		
+		帳號 &emsp;&nbsp;&nbsp;&nbsp;
+		<input type="text" name="username" placeholder="請輸入您的帳號">
+		<br>
+		密碼 &emsp;&nbsp;&nbsp;&nbsp;
+		<input type="password" name="password" placeholder="請輸入您的密碼">
+		<br>
+		電子郵件
+		<input type="text" name="email" placeholder="請輸入您的郵件地址">
+		<br>
+		生日 &emsp;&nbsp;&nbsp;&nbsp;
+		<input type="text" name="birthday" placeholder=" 年/月/日">
+		<br>
+		性別 &emsp;&nbsp;&nbsp;&nbsp;
+		<label>
+			<input type="radio" name="gender" value="man">
+			男
+		</label>
+		<label>
+			<input type="radio" name="gender" value="woman">
+			女
+		</label>
+		<br>
+		喜好 &emsp;&nbsp;&nbsp;&nbsp;
+		<label>
+			<input type="checkbox" name="habit" value="playball">
+			打球
+		</label>	
+		<label>
+			<input type="checkbox" name="habit" value="playvideogame">
+			打電動
+		</label>	
+		<label>
+			<input type="checkbox" name="habit" value="shopping">
+			購物
+		</label>
+		<label>
+			<input type="checkbox" name="habit" value="else">
+			其他
+		</label>
+		<br>
+		年級 &emsp;&nbsp;&nbsp;&nbsp;
+		<select name="grade">
+			<option>大一</option>
+			<option>大二</option>
+			<option>大三</option>
+			<option>大四</option>
+			<option>其他</option>
+		</select>
+		<br>
+		&emsp;&emsp;&emsp;&emsp;
+		<input type="submit" name="送出">
+		<input type="reset" name="重設">
+		</form>
+	</body>
+</html>
